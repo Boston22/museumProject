@@ -261,7 +261,7 @@ jQuery(document).ready(function($){
 		    top += el.offsetTop;
 		    left += el.offsetLeft;
 		}
-
+//this is to try fixing
 		return (
 		    top < (window.pageYOffset + window.innerHeight) &&
 		    left < (window.pageXOffset + window.innerWidth) &&
