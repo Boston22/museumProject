@@ -1,8 +1,8 @@
+/* --------------------------------
 
+Primary style
 
-
-
-
+-------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 *, *::after, *::before {
   box-sizing: border-box;
@@ -157,7 +157,6 @@ Main Components
   pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-  /*not sure*/
   background-color: #7b9d6f;
   border-color: #7b9d6f;
 }
@@ -407,4 +406,10 @@ Main Components
     -o-transform: translateX(0%);
     transform: translateX(0%);
   }
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
 }
