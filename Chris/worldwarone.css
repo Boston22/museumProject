@@ -165,32 +165,32 @@ text-align: center;
   top:-10px;
 }
 
-.bg-66 {
-  background: url(http://www.unido.org/uploads/tx_templavoila/history_07.jpg);
+.bg-14 {
+  background: url("images/1914.jpg");#https://nzhistory.govt.nz/media/photo/map-austro-hungarian-empire-1914
   background-size:cover;
 }
 
-.bg-76 {
-  background: url(http://austria-forum.org/attach/Wissenssammlungen/Bibliothek/Wien_mit_den_Augen_des_Adlers/Wien_der_Moderne/UNO-City,_Austria_Center_Vienna/dkaiser_hav_25.jpg);
-  background-size:cover;
-}
-
-.bg-86 {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Power_Plant_(Tianjin,_China).jpg');
-  background-size:cover;
-}
-
-.bg-96 {
-  background: url(http://www.oxfordbusinessgroup.com/sites/default/files/styles/chapter_header__710x233_/public/chapter_headers/ind1_2.png?itok=uxI_081i&c=af7608f5f35cf219c326e9b6e6a7d34c);
-  background-size:cover;
-}
-
-.bg-06 {
-  background: url(http://www.3adi.org/tl_files/3ADIDocuments/Pictures/Greenshot_2014-01-08_18-32-54.jpg);
+.bg-15 {
+  background: url("images/1915.jpg");#https://www.birminghammail.co.uk/news/nostalgia/first-world-war-how-midlands-254566
   background-size:cover;
 }
 
 .bg-16 {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Power_Plant_(Tianjin,_China).jpg');
+  background-size:cover;
+}
+
+.bg-17 {
+  background: url(http://www.oxfordbusinessgroup.com/sites/default/files/styles/chapter_header__710x233_/public/chapter_headers/ind1_2.png?itok=uxI_081i&c=af7608f5f35cf219c326e9b6e6a7d34c);
+  background-size:cover;
+}
+
+.bg-18 {
+  background: url(http://www.3adi.org/tl_files/3ADIDocuments/Pictures/Greenshot_2014-01-08_18-32-54.jpg);
+  background-size:cover;
+}
+
+.bg-19 {
   background: url(https://i.dailymail.co.uk/i/pix/2012/07/23/article-0-142DF918000005DC-387_468x665.jpg);
   background-size:cover;
 }
