@@ -1,1 +1,16 @@
+#draggableTimeline {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #ffffff;
+  width:50px;
+}
 
+#timeline{
+  margin-top:25%;
+}
+
+#timelinePB{
+  width:90%;
+}
