@@ -1,6 +1,18 @@
 $(document).ready(function(){
   $(function() {
-      $("#draggableTimeline").draggable();
+    $('#draggableTimeline').draggable({
+  axis: "x",
+  start: function (event, ui) {
+      start = ui.position.top;
+  },
+  stop: function (event, ui) {
+      stop = ui.position.top;
+
+      if (start > stop) {
+          $('.draggable').css({top: ui.originalPosition.top + 'px'});
+      }
+  }
+});
   });
 var timer = setInterval(function(){
   progressTimeline();

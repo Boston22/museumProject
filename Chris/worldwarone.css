@@ -81,6 +81,10 @@ padding: 30px 100px;
   transition: width 0.2s;
 }
 
+.block{
+  overflow: auto;
+}
+
 .timeline {
   display:none;
   position: absolute;
