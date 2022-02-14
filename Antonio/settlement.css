@@ -407,9 +407,30 @@ Main Components
     transform: translateX(0%);
   }
 }
+a {
+  text-align: center;
+  color: #959595;
+  display: block;
+  margin: auto;
+}
+a:hover {
+  color: #302a2a;
+}
 ul {
     list-style-type: none;
 }
 li {
     list-style-type: none;
+}
+figcaption {
+  text-align: center;
+  opacity: 70%;
+}
+img{
+  width: 480px;
+}
+#caption {
+  float: left;
+  width: 480px;
+  margin: 10px;
 }
