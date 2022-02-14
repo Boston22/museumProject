@@ -1,4 +1,4 @@
-/* --------------------------------
+/* ------------------------------------
 
 Primary style
 
@@ -19,7 +19,7 @@ body {
   background-color: #f8f8f8;
 }
 
-a {
+.datecolors {
   color: #7b9d6f;
   text-decoration: none;
 }
@@ -34,7 +34,7 @@ Main Components
   margin: 2em auto;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  transition: opacity 20s;
 }
 .cd-horizontal-timeline::before {
   /* never visible - this is used in jQuery to check the current MQ */
@@ -319,7 +319,7 @@ Main Components
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
     font-size: 7rem;
   }
