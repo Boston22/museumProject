@@ -82,7 +82,10 @@ padding: 30px 100px;
 }
 
 .block{
-  overflow: auto;
+  overflow: scroll;
+  display: block;
+  height: 50%;
+  width: 25%;
 }
 
 .timeline {
@@ -170,12 +173,12 @@ text-align: center;
 }
 
 .bg-14 {
-  background: url("images/1914.jpg");#https://nzhistory.govt.nz/media/photo/map-austro-hungarian-empire-1914
+  background-image: url("../images/1914.jpg");#https://nzhistory.govt.nz/media/photo/map-austro-hungarian-empire-1914
   background-size:cover;
 }
 
 .bg-15 {
-  background: url("images/1915.jpg");#https://www.birminghammail.co.uk/news/nostalgia/first-world-war-how-midlands-254566
+  background: url("../images/1915.jpg");#https://www.birminghammail.co.uk/news/nostalgia/first-world-war-how-midlands-254566
   background-size:cover;
 }
 
