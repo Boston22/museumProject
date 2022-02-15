@@ -212,7 +212,6 @@ Main Components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(../img/cd-arrow.svg) no-repeat 0 0;
 }
 .cd-timeline-navigation a.prev {
   left: 0;
@@ -421,7 +420,6 @@ ul {
 }
 li {
     list-style-type: none;
-<<<<<<< HEAD
 }
 figcaption {
   text-align: center;
@@ -434,6 +432,4 @@ img{
   float: left;
   width: 480px;
   margin: 10px;
-=======
->>>>>>> 4a0ebed0bd956c7466f6565ff4264e391aa6e5bc
 }
