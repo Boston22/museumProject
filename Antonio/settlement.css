@@ -421,6 +421,7 @@ ul {
 }
 li {
     list-style-type: none;
+<<<<<<< HEAD
 }
 figcaption {
   text-align: center;
@@ -433,4 +434,6 @@ img{
   float: left;
   width: 480px;
   margin: 10px;
+=======
+>>>>>>> 4a0ebed0bd956c7466f6565ff4264e391aa6e5bc
 }
