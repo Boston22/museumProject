@@ -183,12 +183,12 @@ text-align: center;
 }
 
 .bg-16 {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Power_Plant_(Tianjin,_China).jpg');
+  background: url("../images/1916.jpg");
   background-size:cover;
 }
 
 .bg-17 {
-  background: url(http://www.oxfordbusinessgroup.com/sites/default/files/styles/chapter_header__710x233_/public/chapter_headers/ind1_2.png?itok=uxI_081i&c=af7608f5f35cf219c326e9b6e6a7d34c);
+  background: url("../images/1917.jpg");
   background-size:cover;
 }
 
