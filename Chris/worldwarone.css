@@ -173,31 +173,31 @@ text-align: center;
 }
 
 .bg-14 {
-  background-image: url("../images/1914.jpg");#https://nzhistory.govt.nz/media/photo/map-austro-hungarian-empire-1914
+  background-image: url("../images/1914.jpg");/*https://nzhistory.govt.nz/media/photo/map-austro-hungarian-empire-1914*/
   background-size:cover;
 }
 
 .bg-15 {
-  background: url("../images/1915.jpg");#https://www.birminghammail.co.uk/news/nostalgia/first-world-war-how-midlands-254566
+  background: url("../images/1915.jpg");/*https://www.birminghammail.co.uk/news/nostalgia/first-world-war-how-midlands-254566*/
   background-size:cover;
 }
 
 .bg-16 {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Power_Plant_(Tianjin,_China).jpg');
+  background: url("../images/1916.jpg");/*https://www.history.com/news/10-things-you-may-not-know-about-the-battle-of-verdun*/
   background-size:cover;
 }
 
 .bg-17 {
-  background: url(http://www.oxfordbusinessgroup.com/sites/default/files/styles/chapter_header__710x233_/public/chapter_headers/ind1_2.png?itok=uxI_081i&c=af7608f5f35cf219c326e9b6e6a7d34c);
+  background: url("../images/1917.jpg");/*https://www.historic-uk.com/HistoryUK/HistoryofBritain/World-War-1-Timeline-1917/*/
   background-size:cover;
 }
 
 .bg-18 {
-  background: url(http://www.3adi.org/tl_files/3ADIDocuments/Pictures/Greenshot_2014-01-08_18-32-54.jpg);
+  background: url("../images/1918.jpg");/*https://en.wikipedia.org/wiki/Battle_of_Cantigny*/
   background-size:cover;
 }
 
 .bg-19 {
-  background: url(https://i.dailymail.co.uk/i/pix/2012/07/23/article-0-142DF918000005DC-387_468x665.jpg);
+  background: url("../images/1920.jpg");/*https://en.wikipedia.org/wiki/Treaty_of_Versailles*/
   background-size:cover;
 }
