@@ -3,39 +3,33 @@
   cursor: move;
   z-index: 10;
   background-color: #2196F3;
-  width:50px;
-  height:50px;
+  width:40px;
+  height:40px;
   border-radius: 50%;
+  top:560px;
 }
 
 #timeline{
-  margin-top:1%;
+  clear:left;
+  margin-bottom:1%;
   z-index:0;
 }
 
 .timelineDivs{
-  position:relative;
-  display:inline-block;
-  width:150px;
+  overflow:auto;
+  font-size: 15px;
+  width:7.5%;
   height:300px;
-  margin-left:10%;
-  bottom:3px;
+  margin-left:5%;
+  float:left;
+  margin-bottom:1%;
 }
 
 .timelineDivsN1{
-  margin-left: 18%;
+  margin-left: 20%;
 }
 
 .timelineDivsBTM{
-  margin-left:21%;
+  margin-left:19%;
   top:3px;
-}
-
-h3{
-  margin:0;
-  padding:0px;
-}
-
-#WW2DIV{
-  margin-bottom:-5%;
 }
