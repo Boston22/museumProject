@@ -9,11 +9,8 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
 }
-
 body {
-  font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
   color: #383838;
   background-color: #f8f8f8;
@@ -22,6 +19,9 @@ body {
 .datecolors {
   color: #7b9d6f;
   text-decoration: none;
+}
+nav{
+  font-size: 100% !important;
 }
 
 /* --------------------------------
@@ -118,7 +118,7 @@ Main Components
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   padding-bottom: 15px;
   color: #383838;
   /* fix bug on Safari - text flickering while timeline translates */
@@ -320,10 +320,10 @@ Main Components
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: 7rem;
+    font-size: 4.25rem;
   }
   .cd-horizontal-timeline .events-content em {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
@@ -406,20 +406,20 @@ Main Components
     transform: translateX(0%);
   }
 }
-a {
+.credit {
   text-align: center;
   color: #959595;
   display: block;
   margin: auto;
 }
-a:hover {
+.credit:hover {
   color: #302a2a;
 }
-ul {
-    list-style-type: none;
-}
 li {
-    list-style-type: none;
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
 }
 figcaption {
   text-align: center;
@@ -428,7 +428,7 @@ figcaption {
 img{
   width: 480px;
 }
-#caption {
+.caption {
   float: left;
   width: 480px;
   margin: 10px;
