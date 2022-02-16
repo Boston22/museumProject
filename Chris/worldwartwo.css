@@ -172,32 +172,32 @@ text-align: center;
   top:-10px;
 }
 
-.bg-14 {
+.bg-39 {
   background-image: url("../images/1914.jpg");/*https://nzhistory.govt.nz/media/photo/map-austro-hungarian-empire-1914*/
   background-size:cover;
 }
 
-.bg-15 {
+.bg-40 {
   background: url("../images/1915.jpg");/*https://www.birminghammail.co.uk/news/nostalgia/first-world-war-how-midlands-254566*/
   background-size:cover;
 }
 
-.bg-16 {
+.bg-42 {
   background: url("../images/1916.jpg");/*https://www.history.com/news/10-things-you-may-not-know-about-the-battle-of-verdun*/
   background-size:cover;
 }
 
-.bg-17 {
+.bg-44 {
   background: url("../images/1917.jpg");/*https://www.historic-uk.com/HistoryUK/HistoryofBritain/World-War-1-Timeline-1917/*/
   background-size:cover;
 }
 
-.bg-18 {
+.bg-45 {
   background: url("../images/1918.jpg");/*https://en.wikipedia.org/wiki/Battle_of_Cantigny*/
   background-size:cover;
 }
 
-.bg-19 {
+.bg-po {
   background: url("../images/1920.jpg");/*https://en.wikipedia.org/wiki/Treaty_of_Versailles*/
   background-size:cover;
 }
