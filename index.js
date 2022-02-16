@@ -30,34 +30,29 @@ function progressTimeline(){
   {
     winWidthPCT = Math.floor(offset/winWidth * 100);
     if(winWidthPCT > .5){
-      winWidthPCT += 3; // the 3 is the "offset"
+      winWidthPCT += 2; // the 2.5 is the "offset"
     }
   $("#timelinePB").css("width", winWidthPCT + "%");
 }
-console.log(winWidthPCT);
 }
 
 function checkStop(){
   var time = 0;
   var timerStoped = setInterval(function(){
-    tempPCT = winWidthPCT;
-  }, 2500);
-
-  var timer = setInterval(function(){
     if(tempPCT == winWidthPCT)
     {
       goToPage(winWidthPCT);
     }
-  }, 100);
-
+    tempPCT = winWidthPCT;
+  }, 2000);
 }
 
 function goToPage(distance){
-  if(13 < distance && distance < 18) location.href = "Antonio/settlement.html";
-  if(24 < distance && distance < 29) location.href = "Mathew/revolution.html";
-  if(39 < distance && distance < 45) location.href = "Mathew/CivilWar.html";
-  if(51 < distance && distance < 57) location.href = "Chris/worldwarone.html";
-  if(66 < distance && distance < 72) location.href = "Boston/1920sUSMafia.html";
-  if(79 < distance && distance < 84) location.href = "Boston/1920sStock.html";
-  if(92 < distance && distance < 98) location.href = "Chris/worldwartwo.html";
+  if(5 < distance && distance < 14) location.href = "Antonio/settlement.html";
+  if(20 < distance && distance < 27) location.href = "Mathew/revolution.html";
+  if(33 < distance && distance < 40) location.href = "Mathew/CivilWar.html";
+  if(46 < distance && distance < 53) location.href = "Chris/worldwarone.html";
+  if(60 < distance && distance < 67) location.href = "Boston/1920sUSMafia.html";
+  if(72 < distance && distance < 79) location.href = "Boston/1920sStock.html";
+  if(87 < distance && distance < 94) location.href = "Chris/worldwartwo.html";
 }

@@ -15,7 +15,30 @@
   <body>
     <div class="jumbotron">
       <h1 class="text-center">The History of America</h1>
+      <div class="d-flex justify-content-center">
+      <button type="button text-center" class="btn btn-primary" data-toggle="modal" data-target="#infoModal">How To Use</button>
     </div>
+      <div class="modal" id="infoModal">
+      <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">How to use the timeline</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        Drag the blue dot under or over one of the rectangles to be taken to a page about that topic
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="container-fluid">
     <div class="timelineDivs bg-info">
       <h3>Colonial Times</h3>
       <p>America started as a group of British Colonies, go here to learn about this eary age of exploration</p>
@@ -32,10 +55,13 @@
       <h3 class="text-light">World War Two</h3>
       <p class="text-light">World War Two was the deadliest war in history. We fought all around the world, from the Pacific to Europe. Go here to learn about the war</p>
     </div>
+  </div>
+  <br>
   <div id="draggableTimeline"></div>
   <div id="timeline" class="progress">
   <div id="timelinePB" class="progress-bar"></div>
   </div>
+    <div class="container-fluid">
   <div class="timelineDivs timelineDivsBTM bg-danger">
     <h3>Revolution War</h3>
     <p>After over a century under the control of the British Empire, the US fights for its freedom. Go here to learn about the American Revolution</p>
@@ -48,5 +74,6 @@
     <h3>1920's Mafia</h3>
     <p> During the 1920's America, and especially Chicago, was dominated by one man... Al Capone. Go here to learn about him.</p>
   </div>
+    <div class="container-fluid">
   </body>
   </html>
