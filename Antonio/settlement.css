@@ -7,13 +7,7 @@ Primary style
 *, *::after, *::before {
   box-sizing: border-box;
 }
-
-html {
-  font-size: 62.5%;
-}
-
 body {
-  font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
   color: #383838;
   background-color: #f8f8f8;
@@ -23,7 +17,33 @@ body {
   color: #7b9d6f;
   text-decoration: none;
 }
-
+.credit {
+  text-align: center;
+  color: rgb(129, 124, 124);
+  display: block;
+  margin: auto;
+}
+.credit:hover {
+  color: #221d1d;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+figcaption {
+  text-align: center;
+  opacity: 70%;
+}
+img{
+  width: 480px;
+}
+.caption {
+  float: left;
+  width: 480px;
+  margin: 10px;
+}
 /* --------------------------------
 
 Main Components
@@ -118,7 +138,7 @@ Main Components
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   padding-bottom: 15px;
   color: #383838;
   /* fix bug on Safari - text flickering while timeline translates */
@@ -320,10 +340,10 @@ Main Components
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: 7rem;
+    font-size: 4.25rem;
   }
   .cd-horizontal-timeline .events-content em {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
@@ -405,31 +425,4 @@ Main Components
     -o-transform: translateX(0%);
     transform: translateX(0%);
   }
-}
-a {
-  text-align: center;
-  color: #959595;
-  display: block;
-  margin: auto;
-}
-a:hover {
-  color: #302a2a;
-}
-ul {
-    list-style-type: none;
-}
-li {
-    list-style-type: none;
-}
-figcaption {
-  text-align: center;
-  opacity: 70%;
-}
-img{
-  width: 480px;
-}
-#caption {
-  float: left;
-  width: 480px;
-  margin: 10px;
 }

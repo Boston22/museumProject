@@ -44,7 +44,7 @@ function checkStop(){
       goToPage(winWidthPCT);
     }
     tempPCT = winWidthPCT;
-  }, 2000);
+  }, 500);
 }
 
 function goToPage(distance){
