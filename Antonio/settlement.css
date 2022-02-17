@@ -7,9 +7,6 @@ Primary style
 *, *::after, *::before {
   box-sizing: border-box;
 }
-
-html {
-}
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #383838;
@@ -20,10 +17,33 @@ body {
   color: #7b9d6f;
   text-decoration: none;
 }
-nav{
-  font-size: 100% !important;
+.credit {
+  text-align: center;
+  color: rgb(129, 124, 124);
+  display: block;
+  margin: auto;
 }
-
+.credit:hover {
+  color: #221d1d;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+figcaption {
+  text-align: center;
+  opacity: 70%;
+}
+img{
+  width: 480px;
+}
+.caption {
+  float: left;
+  width: 480px;
+  margin: 10px;
+}
 /* --------------------------------
 
 Main Components
@@ -405,31 +425,4 @@ Main Components
     -o-transform: translateX(0%);
     transform: translateX(0%);
   }
-}
-.credit {
-  text-align: center;
-  color: #959595;
-  display: block;
-  margin: auto;
-}
-.credit:hover {
-  color: #302a2a;
-}
-li {
-  list-style-type: none;
-}
-ul {
-  list-style-type: none;
-}
-figcaption {
-  text-align: center;
-  opacity: 70%;
-}
-img{
-  width: 480px;
-}
-.caption {
-  float: left;
-  width: 480px;
-  margin: 10px;
 }
